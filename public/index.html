@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWorld | Innovación y Futuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tech<span>World</span></h1>
+        <p>Explorando las fronteras del desarrollo</p>
+    </header>
+
+    <main>
+        <section id="introduccion">
+            <h2>Tecnología: Mi Pasión</h2>
+            <p>La tecnología no es solo una herramienta, es el lenguaje del futuro. Desde el desarrollo de software hasta la inteligencia artificial, este hobby me permite construir soluciones reales a problemas complejos.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería Tech</h2>
+            <div class="grid-galeria">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=300" alt="Hardware">
+                    <p>Hardware Moderno</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=300" alt="Código">
+                    <p>Desarrollo Web</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=300" alt="Robótica">
+                    <p>IA y Robótica</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="interactivo">
+            <h2>Foro de Discusión</h2>
+            <form id="formularioComentarios">
+                <div class="input-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required placeholder="Escribe tu nombre">
+                </div>
+                <div class="input-group">
+                    <label for="mensaje">Comentario:</label>
+                    <textarea id="mensaje" required placeholder="¿Qué opinas del futuro tecnológico?"></textarea>
+                </div>
+                <button type="submit" id="btnEnviar">Publicar Comentario</button>
+            </form>
+
+            <div id="contenedorComentarios">
+                <h3>Comentarios Recientes</h3>
+                <div id="listaComentarios">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Proyecto Tech - Desarrollo Full-Stack</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
