@@ -1,2 +1,2 @@
 # tecnolog-aQueEmerge
-Tecnología que emerge
+Tecnologia que emerge
